@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost/loginsystem/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Login System</title>
+<style type="text/css">
+	/*a:link {
+  background-color: yellow;
+}*/
+
+/*a:visited {
+  background-color: red;
+}
+*/
+a:hover {
+  background-color: lightgreen;
+}
+
+a:active {
+  background-color: hotpink;
+} 
+
+</style>
+<link href="./Login System_files/style.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="keywords" content="Elegent Tab Forms,Login Forms,Sign up Forms,Registration Forms,News latter Forms,Elements" .="">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<script src="./Login System_files/jquery.min.js.download"></script>
+<script src="./Login System_files/easyResponsiveTabs.js.download" type="text/javascript"></script>
+				<script type="text/javascript">
+					$(document).ready(function () {
+						$('#horizontalTab').easyResponsiveTabs({
+							type: 'default',       
+							width: 'auto', 
+							fit: true 
+						});
+					});
+				   </script>
+<link href="./Login System_files/css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="main">
+		<h1>Registration and Login System</h1>
+		<a style="position: relative;left: 47%; top: -25px" href="http://localhost/loginsystem/admin/index.php">Admin Login</a>
+	 <div class="sap_tabs">	
+			<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+			  <ul class="resp-tabs-list">
+			  	  <li class="resp-tab-item resp-tab-active" aria-controls="tab_item-0" role="tab"><div class="top-img"><img src="./Login System_files/top-note.png" alt=""></div><span>Register</span>
+			  	  	
+				</li>
+				  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><div class="top-img"><img src="./Login System_files/top-lock.png" alt=""></div><span>Login</span></li>
+				  <!-- <li class="resp-tab-item lost" aria-controls="tab_item-2" role="tab"><div class="top-img"><img src="images/top-key.png" alt=""/></div><span>Forgot Password</span></li> -->
+				  <div class="clear"></div>
+			  </ul>		
+			  	 
+			<div class="resp-tabs-container">
+					<h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>Register
+			  	  	
+				</h2><div class="tab-1 resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
+					<div class="facts">
+					
+						<div class="register">
+							<form name="registration" method="post" action="http://localhost/loginsystem/" enctype="multipart/form-data">
+								<p>First Name </p>
+								<input type="text" class="text" value="" name="fname" required="">
+								<p>Last Name </p>
+								<input type="text" class="text" value="" name="lname" required="">
+								<p>Email Address </p>
+								<input type="text" class="text" value="" name="email">
+								<p>Password </p>
+								<input type="password" value="" name="password" required="">
+										<p>Contact No. </p>
+								<input type="text" value="" name="contact" required="">
+								<p>DOB </p>
+								<input class="date" type="date" value="" name="dob" required="">
+								<div class="sign-up">
+									<input type="reset" value="Reset">
+									<input type="submit" name="signup" value="Sign Up">
+									<div class="clear"> </div>
+								</div>
+							</form>
+
+						</div>
+					</div>
+				</div>		
+			 <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow"></span>Login</h2><div class="tab-2 resp-tab-content" aria-labelledby="tab_item-1">
+					 	<div class="facts">
+							 <div class="login">
+							<div class="buttons">
+								
+								
+							</div>
+							<form name="login" action="http://localhost/loginsystem/" method="post">
+								<input type="text" class="text" name="uemail" value="" placeholder="Enter your registered email"><a href="http://localhost/loginsystem/#" class=" icon email"></a>
+
+								<input type="password" value="" name="password" placeholder="Enter valid password"><a href="http://localhost/loginsystem/#" class=" icon lock"></a>
+
+								<div class="p-container">
+								
+									<div class="submit two">
+									<input type="submit" name="login" value="LOG IN">
+									</div>
+									<div class="clear"> </div>
+								</div>
+
+							</form>
+					</div>
+				</div> 
+			</div> 			        					 
+				 <h2 class="resp-accordion" role="tab" aria-controls="tab_item-2"><span class="resp-arrow"></span></h2><div class="tab-2 resp-tab-content" aria-labelledby="tab_item-2">
+					 	<div class="facts">
+							 <div class="login">
+							<div class="buttons">
+								
+								
+							</div>
+							<form name="login" action="http://localhost/loginsystem/" method="post">
+								<input type="text" class="text" name="femail" value="" placeholder="Enter your registered email" required=""><a href="http://localhost/loginsystem/#" class=" icon email"></a>
+									
+										<div class="submit three">
+											<input type="submit" name="send" onclick="myFunction()" value="Send Email">
+										</div>
+									</form>
+									</div>
+				         	</div>           	      
+				        </div>	
+				     </div>	
+		        </div>
+	        </div>
+	     </div>
+	     <a style="color: red; position: absolute; " href="http://localhost/loginsystem/admin/index.php">Admin Login</a>
+
+</body></html>
